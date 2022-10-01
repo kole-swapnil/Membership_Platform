@@ -51,6 +51,7 @@ import React from 'react';
 import './index.css';
 import Homepage from './Homepage';
 import SignUp from './components/SignUp/SignUp';
+import Login from './components/Login/Login'
 import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
   <Switch>
    <Route exact path="/" component={Homepage}/>
    <Route path="/signup" component={SignUp}/>
+   <Route path="/login" component={Login}/>
   </Switch>
   
     </HashRouter>
