@@ -3,7 +3,9 @@
 Creating a repository for **Membership Platform X NFT Marketplace**
 
 Need developers to contribute to create the following components exactly similar to what the design shows.
-Basically do the UI integration
+Basically do the UI integration.
+PR should be to master branch.
+Should follow all good practices.
 
 #### For contributors
 
@@ -72,12 +74,14 @@ https://ibb.co/Gs9PV2B
 </a>
 <br/>
 <a name="Carousel">
+Screenshots here
 https://ibb.co/GQ64dQQ
 https://ibb.co/4d9Hqzq
 https://ibb.co/tzxzt2J
 </a>
 <br/>
 <a name="CarouselNFT">
+Screenshots here
 https://ibb.co/PCVb9HY
 https://ibb.co/LnXbSWB
 https://ibb.co/sVT5vhW
