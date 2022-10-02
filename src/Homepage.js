@@ -1,24 +1,18 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
 import React from 'react';
 
 function Homepage() {
   return (
     <div className="App">
+      <Navbar/>
       <div className="containComps">
       <Blockcomp/>
       </div>
       <span className="v133_304">How The Runway Helps You</span>
       <div id="container"></div>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
-    
-      {/* <div className="block"><Blockcomp/></div>
-      
-      <div className="block"><Blockcomp/></div>
-      
-      <div className="block">
-        <Blockcomp/>
-      </div> */}
       
       
 

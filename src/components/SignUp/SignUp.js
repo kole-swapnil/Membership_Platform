@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 import '../SignUp/SignUp.css';
+import Navbar from '../Navbar/Navbar';
 import { Button } from '../Button';
 import {Link} from "react-router-dom";
 import axios from 'axios';
@@ -169,8 +170,8 @@ class SignUP extends Component{
         return(
             
                 <div className="SignUpPage">
+                  <Navbar/>
                     
-                   
                    <div className="SignUpBody">
                     <h className= "SignUpHeader">Sign Up</h>
                     
@@ -225,14 +226,3 @@ class SignUP extends Component{
 }
 
 export default  SignUP
-
-
-// Code below from https://stackoverflow.com/questions/44387318/linking-button-to-another-page
-
-
-
-
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
