@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
 import Cards from './components/Cards/Cards';
 import React from 'react';
@@ -7,6 +8,7 @@ import React from 'react';
 function Homepage() {
   return (
     <div className="App">
+      <Navbar/>
       <div className="containComps">
       <Blockcomp/>
       </div>
@@ -14,14 +16,6 @@ function Homepage() {
       <div id="container"><Cards/>
       </div>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
-    
-      {/* <div className="block"><Blockcomp/></div>
-      
-      <div className="block"><Blockcomp/></div>
-      
-      <div className="block">
-        <Blockcomp/>
-      </div> */}
       
       
 
