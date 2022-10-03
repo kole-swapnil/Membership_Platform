@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
 import FootMessage from './components/FootMessage/FootMessage'
-import Footer from './components/Footer/Footer'
 import Cards from './components/Cards/Cards';
 import CardsNFT from './components/CardsNFT/CardsNFT';
 import React from 'react';
@@ -24,7 +23,6 @@ function Homepage() {
       <Carousel slides={CarouselData} />
       <CardsNFT/>
       <FootMessage/>
-      <Footer/>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
       
       
