@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 import '../Login/Login.css';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import { Button } from '../Button';
 import {Link} from "react-router-dom";
 import axios from 'axios';
