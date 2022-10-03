@@ -6,6 +6,10 @@ import CardsNFT from './components/CardsNFT/CardsNFT';
 import Footer from './components/Footer/Footer'
 import React from 'react';
 
+import Carousel from './components/Carousel/Carousel';
+import { CarouselData } from './components/Carousel/CarouselData';
+
+
 function Homepage() {
   return (
     <div className="App">
@@ -14,8 +18,8 @@ function Homepage() {
       <Blockcomp/>
       </div>
       <span className="v133_304">How The Runway Helps You</span>
-      <div id="container"></div>
       <div id="container"><Cards/>
+      <Carousel slides={CarouselData} />
       <CardsNFT/>
       </div>
       <Footer/>
