@@ -1,7 +1,7 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
-import FootMessage from './components/FootMessage/FootMessage';
+import FootMessage from './components/FootMessage/FootMessage'
 import Cards from './components/Cards/Cards';
 import CardsNFT from './components/CardsNFT/CardsNFT';
 import React from 'react';
