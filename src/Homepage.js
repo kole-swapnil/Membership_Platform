@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
 import Cards from './components/Cards/Cards';
 import CardsNFT from './components/CardsNFT/CardsNFT';
+import Footer from './components/Footer/Footer'
 import React from 'react';
 
 import Carousel from './components/Carousel/Carousel';
@@ -21,6 +22,7 @@ function Homepage() {
       <Carousel slides={CarouselData} />
       <CardsNFT/>
       </div>
+      <Footer/>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
       
       
