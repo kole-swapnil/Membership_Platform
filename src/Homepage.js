@@ -8,6 +8,8 @@ import React from 'react';
 
 import Carousel from './components/Carousel/Carousel';
 import { CarouselData } from './components/Carousel/CarouselData';
+import CarouselNFT from './components/CarouselNFT/CarouselNFT';
+import {CarouselNFTContents} from './components/CarouselNFT/CarouselDataNFT'
 
 
 function Homepage() {
@@ -20,6 +22,7 @@ function Homepage() {
       <span className="v133_304">How The Runway Helps You</span>
       <div id="container"><Cards/>
       <Carousel slides={CarouselData} />
+      <CarouselNFT slides={CarouselNFTContents}/>
       <CardsNFT/>
       </div>
       <Footer/>
