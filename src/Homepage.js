@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Blockcomp from './components/BlockComp/Blockcomp';
+import FootMessage from './components/FootMessage/FootMessage'
+import Footer from './components/Footer/Footer'
 import Cards from './components/Cards/Cards';
 import CardsNFT from './components/CardsNFT/CardsNFT';
 import React from 'react';
@@ -17,10 +19,12 @@ function Homepage() {
       <Blockcomp/>
       </div>
       <span className="v133_304">How The Runway Helps You</span>
-      <div id="container"><Cards/>
+      <div id="container"></div>
+      <Cards/>
       <Carousel slides={CarouselData} />
       <CardsNFT/>
-      </div>
+      <FootMessage/>
+      <Footer/>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
       
       
