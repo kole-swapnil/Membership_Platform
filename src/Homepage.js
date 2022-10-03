@@ -4,10 +4,13 @@ import Blockcomp from './components/BlockComp/Blockcomp';
 import FootMessage from './components/FootMessage/FootMessage'
 import Cards from './components/Cards/Cards';
 import CardsNFT from './components/CardsNFT/CardsNFT';
+import Footer from './components/Footer/Footer'
 import React from 'react';
 
 import Carousel from './components/Carousel/Carousel';
 import { CarouselData } from './components/Carousel/CarouselData';
+import CarouselNFT from './components/CarouselNFT/CarouselNFT';
+import {CarouselNFTContents} from './components/CarouselNFT/CarouselDataNFT'
 
 
 function Homepage() {
@@ -21,6 +24,7 @@ function Homepage() {
       <div id="container"></div>
       <Cards/>
       <Carousel slides={CarouselData} />
+      <CarouselNFT slides={CarouselNFTContents}/>
       <CardsNFT/>
       <FootMessage/>
       <a className="copyRight" href="#">@2022 by The Runway Inc.</a>
